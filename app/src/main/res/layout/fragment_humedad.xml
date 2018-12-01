@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HumedadFragment"
+    android:orientation="vertical"
+    android:background="#ffffff">>
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHrelativa"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="1">
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/txtHabsoluta"
+              android:layout_gravity="center_horizontal"
+              android:textColor="#000000"
+              android:textSize="30dp"
+              />
+
+          ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProcio"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        />
+
+        ></LinearLayout>
+
+
+
+</LinearLayout>
